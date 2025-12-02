@@ -1,0 +1,406 @@
+{
+  "level1_basic_discovery": {
+    "idea": [
+      "Give 20 product or service ideas for a {niche} business based on budget {low/medium/high}.",
+      "Generate 20 scalable digital product ideas for a business targeting {audience}."
+    ],
+    "name": [
+      "Generate 20 business name ideas for a {business type}. Style: simple, modern, memorable. Avoid trademarked or famous names. Give meanings in one line each.",
+      "Give me 30 short, catchy business names (6–10 letters) for a {niche} business targeting {audience}. Include invented words too.",
+      "Suggest business names for a {niche} brand AND check available .com or .co domains."
+    ],
+    "tagline": [
+      "Generate 10 tagline options that clearly express the main benefit of a {business type}.",
+      "Create 15 emotional taglines that inspire trust, hope, and action for a {brand type}.",
+      "Give me 20 punchy, strong taglines for a {business}, max 5 words each."
+    ],
+    "oneliner": [
+      "Write 10 concise one-line descriptions for a {business type} that explain what it does in under 20 words.",
+      "Create 15 compelling one-liner business descriptions that highlight the unique value proposition."
+    ],
+    "audience": [
+      "Describe the ideal target audience for a {niche} business in detail, including demographics, psychographics, behaviors, and frustrations.",
+      "Write 10 detailed target audience profiles for a business in the {niche} space, including age, interests, pain points, and buying habits."
+    ],
+    "problem": [
+      "Identify 10 common problems that a {business type} solves for its customers.",
+      "List 15 customer pain points and frustrations for people in the {audience} demographic."
+    ],
+    "solution": [
+      "Describe 10 unique solution concepts for solving {problem} in the {niche} market.",
+      "Generate 15 innovative product or service solutions that address {customer pain points}."
+    ],
+    "competitors": [
+      "List 10 direct and indirect competitors for a {niche} business, including their strengths and weaknesses.",
+      "Analyze the competitive landscape for {business type}, identifying top 5 competitors and their market positioning."
+    ],
+    "brand_vibe": [
+      "Suggest a brand personality and tone for a business targeting {audience} in the {niche} space.",
+      "Create 5 brand vibe descriptions for a modern {niche} business, including visual style, voice, and values."
+    ],
+    "goals": [
+      "Outline 10 short-term and long-term business goals for a startup in the {niche} industry.",
+      "Write 15 SMART goals for a new business focusing on growth, revenue, and customer acquisition."
+    ]
+  },
+  "level2_foundation_scan": {
+    "market": [
+      "Analyze the market opportunity for a {business type} in B2B, B2C, niche, mass, local, or global markets.",
+      "Describe the target market size and potential for a {niche} business, including growth projections."
+    ],
+    "revenue_model": [
+      "Suggest 10 revenue model options for a {business type}, including pricing strategies and monetization methods.",
+      "Outline different revenue streams for a {niche} business, from subscriptions to one-time sales."
+    ],
+    "value_proposition": [
+      "Write 15 compelling value propositions for a {business type} that clearly state the unique benefits.",
+      "Create 10 value proposition statements that answer 'why choose us?' for customers."
+    ],
+    "features_benefits": [
+      "List 20 main features and benefits of a product or service in the {niche} space.",
+      "Describe the key features that provide the most value to {audience} customers."
+    ],
+    "timing": [
+      "Explain why now is the right time to launch a {business type} in the current market.",
+      "Analyze market timing and trends that make {niche} businesses successful today."
+    ],
+    "customer_segments": [
+      "Identify and describe 10 different customer segments for a {business type}.",
+      "Break down the target audience into specific segments with unique needs and characteristics."
+    ],
+    "founder_strengths": [
+      "List 15 founder strengths that would benefit a {business type} startup.",
+      "Identify key skills and experiences that make a founder successful in {niche}."
+    ],
+    "founder_weaknesses": [
+      "Identify common founder weaknesses in {business type} and strategies to overcome them.",
+      "List 10 potential challenges founders face in {niche} and mitigation strategies."
+    ],
+    "motivation": [
+      "Write 10 compelling reasons why someone should start a {business type}.",
+      "Describe the personal and professional motivations for building a business in {niche}."
+    ],
+    "budget": [
+      "Estimate startup budgets for different levels (low/medium/high) for a {business type}.",
+      "Outline cost structures and budget requirements for launching in {niche}."
+    ],
+    "competition_level": [
+      "Assess the competition level (low/medium/high) in the {niche} market and implications.",
+      "Analyze competitive intensity and market saturation for {business type}."
+    ],
+    "risks": [
+      "Identify 15 major business risks for a {business type} and risk mitigation strategies.",
+      "List potential threats and challenges in the {niche} industry."
+    ],
+    "constraints": [
+      "Describe common limitations (time, skill, money) for {business type} startups.",
+      "Identify resource constraints and how to work within them for {niche} businesses."
+    ]
+  },
+  "level3_blueprint_scan": {
+    "idea_dimension": {
+      "origin": [
+        "Describe 10 different ways business ideas can originate, from problems to opportunities.",
+        "Explain various sources of inspiration for {niche} business ideas."
+      ],
+      "validation": [
+        "Outline methods to validate a business idea, including surveys, MVPs, and market research.",
+        "Describe validation techniques specific to {business type} concepts."
+      ],
+      "opportunity_size": [
+        "Assess the market size and growth potential for different business opportunities.",
+        "Estimate the total addressable market for {niche} ideas."
+      ],
+      "innovation_type": [
+        "Classify business ideas as incremental, disruptive, or sustaining innovations.",
+        "Analyze the innovation level of {business type} concepts."
+      ]
+    },
+    "customer_dimension": {
+      "demographics": [
+        "Describe detailed demographic profiles for customers of {business type}.",
+        "Outline age, gender, income, education, and location data for {audience}."
+      ],
+      "psychographics": [
+        "Define psychographic profiles including values, mindset, and lifestyle for {audience}.",
+        "Describe the psychological characteristics of {niche} customers."
+      ],
+      "behaviors": [
+        "Analyze customer behaviors, purchase patterns, and decision-making processes.",
+        "Describe how {audience} interacts with products and services."
+      ],
+      "frustrations": [
+        "Identify 20 major customer frustrations and pain points in the {niche} space.",
+        "List common complaints and unmet needs of {audience}."
+      ],
+      "buying_power": [
+        "Assess the purchasing power and spending habits of {audience} customers.",
+        "Analyze price sensitivity and budget ranges for {niche} products."
+      ],
+      "demand_strength": [
+        "Measure market demand strength and customer interest in {business type}.",
+        "Gauge the level of need and urgency for solutions in {niche}."
+      ]
+    },
+    "product_dimension": {
+      "mvp_scope": [
+        "Define MVP scope and features for a {business type} product.",
+        "Outline the minimum viable product requirements for {niche}."
+      ],
+      "differentiation": [
+        "Describe what makes a product different and unique in the {niche} market.",
+        "Identify competitive advantages and unique selling points."
+      ],
+      "roadmap": [
+        "Create product development roadmaps with milestones and timelines.",
+        "Outline feature development plans for {business type}."
+      ],
+      "user_journey": [
+        "Map out complete user journeys from awareness to purchase and retention.",
+        "Design customer experience flows for {niche} products."
+      ],
+      "pain_relief": [
+        "Describe how products relieve specific customer pains and frustrations.",
+        "Explain pain relief mechanisms for {audience} problems."
+      ],
+      "gain_creation": [
+        "Outline how products create gains and positive outcomes for customers.",
+        "Describe value creation and benefit delivery methods."
+      ],
+      "defensibility": [
+        "Explain what makes a business hard to replace or compete against.",
+        "Identify moats and barriers to entry in {niche}."
+      ]
+    },
+    "competition_dimension": {
+      "top_competitors": [
+        "Identify and analyze the top 10 competitors in the {niche} space.",
+        "List major players and their market share in {business type}."
+      ],
+      "strengths": [
+        "Analyze competitor strengths and what they do well in the market.",
+        "Identify best practices and successful strategies of competitors."
+      ],
+      "weaknesses": [
+        "Find competitor weaknesses and market gaps they leave open.",
+        "Identify opportunities created by competitor shortcomings."
+      ],
+      "market_gaps": [
+        "Discover underserved market segments and unmet customer needs.",
+        "Find white space opportunities in the {niche} landscape."
+      ],
+      "missed_opportunities": [
+        "Identify opportunities that competitors are missing or ignoring.",
+        "Find strategic gaps in the competitive landscape."
+      ]
+    },
+    "business_dimension": {
+      "pricing_strategy": [
+        "Develop pricing strategies including cost-plus, value-based, and competitive pricing.",
+        "Design pricing models appropriate for {business type}."
+      ],
+      "revenue_streams": [
+        "Identify multiple revenue streams beyond the primary product offering.",
+        "Design diversified income sources for {niche} businesses."
+      ],
+      "cost_structure": [
+        "Analyze cost structures including fixed, variable, and marginal costs.",
+        "Outline expense categories and cost optimization strategies."
+      ],
+      "scalability": [
+        "Assess business scalability across operations, marketing, and distribution.",
+        "Evaluate growth potential and scaling challenges."
+      ],
+      "key_metrics": [
+        "Define key performance indicators and success metrics for {business type}.",
+        "Identify important tracking metrics for {niche} businesses."
+      ],
+      "market_entry": [
+        "Develop market entry strategies including timing, positioning, and go-to-market plans.",
+        "Design launch strategies for entering the {niche} market."
+      ]
+    },
+    "branding_dimension": {
+      "brand_tone": [
+        "Define brand tone and voice characteristics for different business types.",
+        "Develop communication styles appropriate for {audience}."
+      ],
+      "brand_archetype": [
+        "Identify brand archetypes (hero, rebel, explorer, etc.) that fit {business type}.",
+        "Choose personality frameworks that resonate with {niche} customers."
+      ],
+      "color_psychology": [
+        "Select color palettes based on psychology and brand personality.",
+        "Choose colors that evoke desired emotions for {audience}."
+      ],
+      "logo_concept": [
+        "Generate logo concepts with unique icons and typography combinations.",
+        "Design visual identity elements for {business type}."
+      ],
+      "brand_themes": [
+        "Develop brand story themes and narrative frameworks.",
+        "Create compelling brand narratives for {niche} businesses."
+      ]
+    },
+    "founder_dimension": {
+      "abilities": [
+        "Identify key abilities and skills needed for {business type} success.",
+        "List competencies required for {niche} entrepreneurship."
+      ],
+      "personality_type": [
+        "Match founder personality types with suitable business models.",
+        "Identify personality traits that lead to success in {business type}."
+      ],
+      "mission": [
+        "Craft founder mission statements and personal purpose declarations.",
+        "Define personal missions that drive {niche} business creation."
+      ],
+      "vision": [
+        "Develop long-term vision statements for business and personal growth.",
+        "Create aspirational visions for {business type} futures."
+      ],
+      "unfair_advantage": [
+        "Identify unique founder advantages and competitive edges.",
+        "Find personal unfair advantages in the {niche} space."
+      ]
+    }
+  },
+  "digital_needs_scan": {
+    "website": [
+      "Generate website requirements and features for a {business type}.",
+      "Design website specifications including pages, functionality, and user experience."
+    ],
+    "mobile_app": [
+      "Outline mobile app requirements and features for {business type}.",
+      "Design app functionality, platforms, and user interface concepts."
+    ],
+    "chatbot": [
+      "Design chatbot functionality and conversation flows for customer service.",
+      "Create AI assistant requirements for {niche} businesses."
+    ],
+    "automation": [
+      "Identify workflow automation opportunities and tool recommendations.",
+      "Design automation systems for operational efficiency."
+    ],
+    "crm": [
+      "Specify CRM requirements including contact management and sales tracking.",
+      "Design customer relationship management systems."
+    ],
+    "ai_assistant": [
+      "Define AI assistant capabilities for business operations and customer service.",
+      "Design intelligent automation and support systems."
+    ],
+    "dashboard": [
+      "Create dashboard requirements for data visualization and business intelligence.",
+      "Design admin panels and analytics interfaces."
+    ],
+    "marketing_funnel": [
+      "Design marketing funnel structures from awareness to conversion.",
+      "Create lead generation and nurturing systems."
+    ],
+    "ecommerce": [
+      "Specify e-commerce platform requirements and features.",
+      "Design online store functionality and payment systems."
+    ],
+    "analytics": [
+      "Define analytics and tracking requirements for business intelligence.",
+      "Design data collection and reporting systems."
+    ],
+    "internal_tools": [
+      "Identify internal tool requirements for team productivity and operations.",
+      "Design custom software solutions for business processes."
+    ],
+    "community": [
+      "Design community platform features for customer engagement and support.",
+      "Create online community and social features."
+    ]
+  },
+  "marketing_copy": {
+    "headlines": [
+      "Write a headline that explains what (business) does in 7 words.",
+      "Create 10 benefit-driven headlines for a (niche) business.",
+      "Write a bold headline that promises a clear result.",
+      "Generate 15 modern startup-style headlines for (offer).",
+      "Make 10 headlines focused on saving time.",
+      "Create headlines that target (audience) and their main goal.",
+      "Write 5 headlines that show transformation.",
+      "Generate 10 emotional-style headlines.",
+      "Create 5 simple one-line value statements.",
+      "Write 10 headlines using power verbs.",
+      "Create 10 headlines that highlight the main solution.",
+      "Write a headline that starts with 'Get' or 'Build'.",
+      "Create 10 headlines that feel premium and minimal.",
+      "Generate 10 creative, fun headlines for a beginners brand.",
+      "Write 5 clear and direct headlines.",
+      "Write 10 headlines using 'without' (Ex: Achieve X without Y)",
+      "Write one headline that explains 'who + what + benefit'.",
+      "Create 10 headlines for service-based businesses.",
+      "Generate 10 headlines for digital product businesses.",
+      "Create 10 tech-style landing page headlines.",
+      "Write 10 headlines focused on ease of use.",
+      "Create 10 headlines with urgency.",
+      "Create 10 headlines using niche keywords.",
+      "Write 10 safe, professional, corporate headlines.",
+      "Create 10 headlines for minimal/modern brands.",
+      "Write a bold headline for a new business launch.",
+      "Generate 10 headlines that highlight affordability.",
+      "Create 10 premium branding headlines.",
+      "Write 10 'customer problem → result' headlines.",
+      "Write 10 headlines that start with 'We help…'."
+    ],
+    "cta": [
+      "Create 10 simple CTA buttons for a business website.",
+      "Write CTAs that start with action verbs (Get, Start, Download).",
+      "Make 10 CTAs focused on starting quickly.",
+      "Create CTAs for digital product downloads.",
+      "Make 10 CTAs for service-based businesses.",
+      "Write 10 CTAs for free resources.",
+      "Write 10 CTAs that feel premium and elegant.",
+      "Create CTAs for beginners launching a business.",
+      "Write 10 CTAs with urgency.",
+      "Create 10 CTAs for 'book a call' or 'contact now'.",
+      "Make 10 CTAs for template-based businesses.",
+      "Write CTAs for shopping-style landing pages.",
+      "Make 10 CTAs that reduce fear or confusion.",
+      "Create 10 CTAs that emphasize transformation.",
+      "Write 10 short CTAs (1–2 words).",
+      "Create value-focused CTAs ('Get clarity', 'See roadmap').",
+      "Write CTAs for growing businesses.",
+      "Create CTAs that emphasize a free start.",
+      "Write 10 modern SaaS-style CTAs.",
+      "Create CTAs for kit-based digital products."
+    ],
+    "about_us": [
+      "We are a team passionate about helping people achieve their goals. Our mission is to make (skill/business) easy, simple and accessible for everyone.",
+      "Founded to deliver clarity and quality, we help businesses and individuals gain the tools and strategies they need to grow with confidence.",
+      "We believe in innovation, speed, and simplicity. Our goal is to bring powerful tools to everyday entrepreneurs.",
+      "This all started when we realized how difficult it was for beginners to find clear guidance. So we built a simple solution that makes the journey easier.",
+      "Our purpose is to help you get results faster. Whether you're starting a business or improving your skills, we give you the tools to succeed.",
+      "Most people struggle with (problem). We saw this and created a solution that saves time and removes confusion—so you can focus on growth.",
+      "Our mission is simple: empower people with ready-to-use resources that turn ideas into real businesses.",
+      "We create modern resources for modern entrepreneurs. Nothing complicated—just clean tools that work.",
+      "We want to make your journey easier. Every tool we create comes from real struggles we've faced—and solved.",
+      "We exist to guide beginners, simplify the process, and provide high-quality resources that anyone can start with today."
+    ]
+  },
+  "brand_elements": {
+    "color_palettes": [
+      "Generate 5 color palettes for a {business type}. Give HEX codes for 4 colors each.",
+      "Suggest color palettes for a {niche} brand based on emotions, psychology, and industry norms.",
+      "Give me 10 gradient color combinations suitable for a modern startup website."
+    ],
+    "fonts": [
+      "Suggest 10 Google Fonts combinations for a modern startup website. Format: Header font + Body font.",
+      "Recommend fonts for a brand that is {brand personality: friendly, bold, premium}."
+    ],
+    "logos": [
+      "Create 10 minimal logo concepts for a brand named '{brand name}'. Style: clean, modern, geometric. Colors: {color palette}. Give each idea in 1–2 lines.",
+      "Generate 15 logo ideas with a unique icon + text that fits a {niche} brand. Describe icon meaning and suggested typography.",
+      "Minimal geometric logo for {brand name}, simple shapes, flat vector, bold contrast, clean typography, white background."
+    ],
+    "brand_story": [
+      "Create a 4-sentence brand story for a {business}. Theme: mission, origin, value, promise.",
+      "Write a powerful emotional brand story that connects with customers and shares the founder's purpose."
+    ]
+  }
+}

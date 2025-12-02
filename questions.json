@@ -1,0 +1,100 @@
+{
+  "level1_basic_discovery": [
+    "Do you already have a business idea?",
+    "Do you already have a business name?",
+    "Do you already have a tagline?",
+    "Do you have a one-line description?",
+    "Do you already know your target audience?",
+    "Do you know the main problem your business solves?",
+    "Do you know the solution or product you will provide?",
+    "Do you know any competitors or similar products?",
+    "Do you know the brand vibe or style you want?",
+    "Do you know your short-term and long-term goals?"
+  ],
+
+  "level2_foundation_scan": [
+    "Who is your market? (B2B, B2C, niche, mass, local, global)",
+    "How will your business make money? (Revenue model)",
+    "What unique value does your business offer?",
+    "What are the main features or benefits you plan to offer?",
+    "Why is now the right time for this business?",
+    "Who are your main customer segments?",
+    "What are your biggest strengths as a founder?",
+    "What challenges or weaknesses do you have as a founder?",
+    "Why do you want to build this business?",
+    "What is your estimated starting budget?",
+    "How strong is your competition? (low / medium / high)",
+    "What are the biggest risks to your business?",
+    "What limitations do you have? (Time / skill / money)"
+  ],
+
+  "level3_blueprint_scan": {
+    "idea_dimension": [
+      "How did this idea originate?",
+      "Has the problem been validated? If yes, how?",
+      "How big can this opportunity become?",
+      "What type of innovation is this? (Incremental / Disruptive)"
+    ],
+    "customer_dimension": [
+      "Who are your ideal customers demographically?",
+      "What psychographics describe your customers? (Values, mindset, lifestyle)",
+      "What behaviors define your customers?",
+      "What frustrations do they face?",
+      "What is their buying power?",
+      "How strong is the market demand for this idea?"
+    ],
+    "product_dimension": [
+      "What is the MVP scope?",
+      "What makes your solution different?",
+      "What is your feature roadmap?",
+      "What is your user journey?",
+      "How does your solution relieve pains?",
+      "How does your solution create gains?",
+      "What makes this business hard to replace?"
+    ],
+    "competition_dimension": [
+      "Who are your top competitors?",
+      "What are their strengths?",
+      "What are their weaknesses?",
+      "Where are the market gaps?",
+      "What opportunities are others missing?"
+    ],
+    "business_dimension": [
+      "What pricing strategy will you use?",
+      "What revenue streams will your business have?",
+      "What is your cost structure?",
+      "How scalable is your business?",
+      "What key metrics will you track?",
+      "What is your market entry strategy?"
+    ],
+    "branding_dimension": [
+      "What brand tone do you prefer?",
+      "Which brand archetype fits your business?",
+      "What color psychology matches your brand?",
+      "What logo concept do you imagine?",
+      "What themes define your brand story?"
+    ],
+    "founder_dimension": [
+      "What abilities do you have?",
+      "What is your personality type?",
+      "What is your mission as a founder?",
+      "What is your long-term vision?",
+      "What is your unfair advantage?"
+    ]
+  },
+
+  "digital_needs_scan": [
+    "Do you need a website?",
+    "Do you need a mobile app?",
+    "Do you need a chatbot?",
+    "Do you need workflow automations?",
+    "Do you need a CRM?",
+    "Do you need an AI assistant?",
+    "Do you need a dashboard or admin panel?",
+    "Do you need a marketing funnel?",
+    "Do you need an e-commerce system?",
+    "Do you need analytics and tracking tools?",
+    "Do you need internal tools or ERP?",
+    "Do you need a community platform?"
+  ]
+}

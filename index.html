@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- ========================= -->
+<!--       META HEADERS        -->
+<!-- ========================= -->
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<!-- SEO Title & Description -->
+<title>Business Builder – Step-by-Step Startup Guidance Tool</title>
+<meta name="description" content="A structured business builder that walks you through idea, audience, product, competition, branding, digital needs and more. Generates AI-ready prompts automatically.">
+
+<!-- Keywords -->
+<meta name="keywords" content="business builder, startup guide, idea validation, entrepreneur tool, business planning, ai prompts, business questionnaire">
+
+<!-- Robots -->
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large">
+
+<!-- ========================= -->
+<!--       SOCIAL PREVIEW      -->
+<!-- ========================= -->
+
+<!-- OpenGraph -->
+<meta property="og:title" content="Business Builder – Startup Guidance Tool" />
+<meta property="og:description" content="Answer structured questions and generate AI-ready prompts to build your business step-by-step." />
+<meta property="og:type" content="website" />
+<meta property="og:image" content="preview.png" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Business Builder – Startup Guidance Tool" />
+<meta name="twitter:description" content="Interactive business builder with ready-to-use prompts." />
+<meta name="twitter:image" content="preview.png" />
+
+<!-- ========================= -->
+<!--       APP SETTINGS        -->
+<!-- ========================= -->
+
+<meta name="theme-color" content="#0c111b" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="mobile-web-app-capable" content="yes" />
+
+<!-- Disable caching (your request) -->
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+
+<!-- ========================= -->
+<!--       JSON-LD SCHEMA      -->
+<!-- ========================= -->
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "name": "Business Builder – Interactive Startup Guidance",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "All",
+  "description": "A structured step-by-step business builder that helps users generate answers and AI-ready prompts for startup planning.",
+  "image": "preview.png"
+}
+</script>
+<link rel="icon" type="image/png" href="favicon.png" />
+<link rel="apple-touch-icon" href="icon-192.png" />
+
+  <title>Business Builder – Q&A Engine</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="toast" id="toast"></div>
+
+  <div class="container">
+    <div class="header">
+      <h1 class="header-title">Business Builder</h1>
+      <div class="header-controls">
+        <button class="icon-btn" id="searchBtn" title="Search questions" aria-label="Search questions">🔍</button>
+        <button class="icon-btn" id="historyBtn" title="View session history" aria-label="View session history">📋</button>
+        <button class="theme-toggle" id="themeToggle" title="Toggle dark mode" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </div>
+
+    <div class="search-box" id="searchBox" style="display:none;">
+      <input type="text" id="searchInput" placeholder="Search questions..." aria-label="Search questions">
+      <button class="search-close" id="searchClose" aria-label="Close search">✕</button>
+      <div class="search-results" id="searchResults"></div>
+    </div>
+
+    <div class="box">
+      <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+      </div>
+      <p class="progress-text" id="progress">Loading…</p>
+
+      <div class="progress-tracker" id="progressTracker" style="display:none;">
+        <div class="tracker-items" id="trackerItems"></div>
+      </div>
+
+      <div id="questionArea">
+        <div class="skeleton" id="skeleton" style="display:none;">
+          <div class="skeleton-line" style="width: 20%; height: 12px;"></div>
+          <div class="skeleton-line" style="width: 100%; height: 24px; margin-top: 16px;"></div>
+          <div class="skeleton-line" style="width: 100%; height: 20px; margin-top: 12px;"></div>
+        </div>
+
+        <h3 id="levelText"></h3>
+        <h3 id="dimensionText"></h3>
+        <h3 id="questionText"></h3>
+
+        <div class="button-group">
+          <button class="yes" id="btnYes" aria-label="Answer yes to this question">Yes</button>
+          <button class="no" id="btnNo" aria-label="Answer no to this question">No</button>
+        </div>
+
+        <div id="answerBox" style="display:none;">
+          <input id="answerInput" type="text" placeholder="Type your answer…" aria-label="Enter your answer">
+          <button class="primary" id="saveBtn" aria-label="Save answer and continue">Save & Continue</button>
+        </div>
+
+        <div id="promptArea" style="display:none;">
+          <div class="prompt-box" id="promptText"></div>
+        </div>
+
+        <div class="answer-preview" id="answerPreview" style="display:none;">
+          <div class="preview-header">Previous Answers</div>
+          <div class="preview-list" id="previewList"></div>
+        </div>
+
+        <div class="navigation-buttons" id="navButtons" style="display:none;">
+          <button class="back-btn" id="backBtn" aria-label="Go to previous question">← Previous</button>
+        </div>
+      </div>
+
+      <div id="reviewArea" style="display:none;">
+        <h3>Review Your Answers</h3>
+        <div class="review-container" id="reviewContainer"></div>
+        <div class="review-actions">
+          <button class="secondary-btn" id="editBtn">← Edit</button>
+          <button class="primary" id="submitBtn">Submit & Complete</button>
+        </div>
+      </div>
+
+      <div id="finalArea" style="display:none;">
+        <h3>✓ Wizard Complete</h3>
+        <div class="completion-summary" id="completionSummary"></div>
+        <pre id="summary" style="display:none;"></pre>
+        <div class="final-actions">
+          <button class="secondary-btn" id="exportJsonBtn">📥 Export JSON</button>
+          <button class="secondary-btn" id="exportCsvBtn">📥 Export CSV</button>
+          <button class="secondary-btn" id="printBtn">🖨️ Print</button>
+          <button class="restart-btn" id="restartBtn">↻ Restart</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal" id="historyModal" style="display:none;">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Session History</h3>
+        <button class="modal-close" id="modalClose" aria-label="Close modal">✕</button>
+      </div>
+      <div class="history-list" id="historyList"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
