@@ -1,100 +1,240 @@
 {
   "level1_basic_discovery": [
-    "Do you already have a business idea?",
-    "Do you already have a business name?",
-    "Do you already have a tagline?",
-    "Do you have a one-line description?",
-    "Do you already know your target audience?",
-    "Do you know the main problem your business solves?",
-    "Do you know the solution or product you will provide?",
-    "Do you know any competitors or similar products?",
-    "Do you know the brand vibe or style you want?",
-    "Do you know your short-term and long-term goals?"
+    {
+      "question": "Do you already have a business idea?",
+      "hint": "Examples: SaaS tool, digital course, coaching service, e-commerce store, consulting, app",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Do you already have a business name?",
+      "hint": "Examples: Slack, Notion, Airbnb, Grammarly. Make it memorable and easy to spell.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Do you already have a tagline?",
+      "hint": "Examples: 'Where great work happens', 'Workflow software for the curious'",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Do you have a one-line description?",
+      "hint": "One sentence that explains what your business does. Keep it simple and clear.",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Do you already know your target audience?",
+      "hint": "Examples: Solopreneurs, small businesses, Fortune 500 companies, college students",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Do you know the main problem your business solves?",
+      "hint": "Example: 'Teams waste 30% of their time on unproductive meetings'",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Do you know the solution or product you will provide?",
+      "hint": "How you solve the problem. Example: 'Smart meeting assistant that records and summarizes'",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Do you know any competitors or similar products?",
+      "hint": "Direct competitors or alternative solutions your audience uses now",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Do you know the brand vibe or style you want?",
+      "hint": "Examples: Professional, playful, minimalist, bold, friendly, premium",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Do you know your short-term and long-term goals?",
+      "hint": "Example: 6-month: 100 customers | 3-year: $1M revenue",
+      "difficulty": "Intermediate"
+    }
   ],
 
   "level2_foundation_scan": [
-    "Who is your market? (B2B, B2C, niche, mass, local, global)",
-    "How will your business make money? (Revenue model)",
-    "What unique value does your business offer?",
-    "What are the main features or benefits you plan to offer?",
-    "Why is now the right time for this business?",
-    "Who are your main customer segments?",
-    "What are your biggest strengths as a founder?",
-    "What challenges or weaknesses do you have as a founder?",
-    "Why do you want to build this business?",
-    "What is your estimated starting budget?",
-    "How strong is your competition? (low / medium / high)",
-    "What are the biggest risks to your business?",
-    "What limitations do you have? (Time / skill / money)"
+    {
+      "question": "Who is your market? (B2B, B2C, niche, mass, local, global)",
+      "hint": "Example: 'B2B targeting remote-first startups globally' or 'B2C for busy professionals in US'",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How will your business make money? (Revenue model)",
+      "hint": "Subscription, one-time purchase, freemium, ads, commission, licensing, etc.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What unique value does your business offer?",
+      "hint": "Your competitive advantage. Example: '10x cheaper and 5x faster than alternatives'",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What are the main features or benefits you plan to offer?",
+      "hint": "Top 3-5 features that directly solve customer problems",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Why is now the right time for this business?",
+      "hint": "Market trends, technology, regulation, or consumer behavior shifting in your favor",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Who are your main customer segments?",
+      "hint": "Break down by role, industry, company size, or demographic. Prioritize top 2-3.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What are your biggest strengths as a founder?",
+      "hint": "Skills, experience, network, domain expertise, track record of execution",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What challenges or weaknesses do you have as a founder?",
+      "hint": "Areas where you lack experience, skills, or resources",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Why do you want to build this business?",
+      "hint": "Personal motivation: solve a problem, make money, build something, help others?",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "What is your estimated starting budget?",
+      "hint": "Include time, money, and resources needed. Example: '$10k, 6 months full-time'",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "How strong is your competition? (low / medium / high)",
+      "hint": "Few competitors = opportunity. Many = validated market but harder to win.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "What are the biggest risks to your business?",
+      "hint": "Market risk, execution risk, competition, regulation, technology changes",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "What limitations do you have? (Time / skill / money)",
+      "hint": "Constraints that will affect your business. Be realistic about what holds you back.",
+      "difficulty": "Beginner"
+    }
   ],
 
   "level3_blueprint_scan": {
     "idea_dimension": [
-      "How did this idea originate?",
-      "Has the problem been validated? If yes, how?",
-      "How big can this opportunity become?",
-      "What type of innovation is this? (Incremental / Disruptive)"
+      {"question": "How did this idea originate?", "hint": "Problem you experienced? Conversation? Market observation? Competitive gap?", "difficulty": "Intermediate"},
+      {"question": "Has the problem been validated? If yes, how?", "hint": "Customer interviews, surveys, pre-sales? Or still a hypothesis?", "difficulty": "Advanced"},
+      {"question": "How big can this opportunity become?", "hint": "TAM (Total Addressable Market). Example: '$5B global market or $500k local market'", "difficulty": "Advanced"},
+      {"question": "What type of innovation is this? (Incremental / Disruptive)", "hint": "Incremental: improve existing. Disruptive: entirely new way of doing things", "difficulty": "Intermediate"}
     ],
     "customer_dimension": [
-      "Who are your ideal customers demographically?",
-      "What psychographics describe your customers? (Values, mindset, lifestyle)",
-      "What behaviors define your customers?",
-      "What frustrations do they face?",
-      "What is their buying power?",
-      "How strong is the market demand for this idea?"
+      {"question": "Who are your ideal customers demographically?", "hint": "Age, gender, income, location, education, company size, role", "difficulty": "Intermediate"},
+      {"question": "What psychographics describe your customers? (Values, mindset, lifestyle)", "hint": "What do they care about? Ambitious? Risk-takers? Detail-oriented? Price-sensitive?", "difficulty": "Advanced"},
+      {"question": "What behaviors define your customers?", "hint": "How they shop, who influences them, what content they consume, their daily routines", "difficulty": "Advanced"},
+      {"question": "What frustrations do they face?", "hint": "Current pain points, wasted time, inefficiency, cost, quality issues", "difficulty": "Intermediate"},
+      {"question": "What is their buying power?", "hint": "Budget range, who decides purchases, decision timeline, payment preferences", "difficulty": "Intermediate"},
+      {"question": "How strong is the market demand for this idea?", "hint": "High demand = many customers seeking solution. Low = niche or early market", "difficulty": "Advanced"}
     ],
     "product_dimension": [
-      "What is the MVP scope?",
-      "What makes your solution different?",
-      "What is your feature roadmap?",
-      "What is your user journey?",
-      "How does your solution relieve pains?",
-      "How does your solution create gains?",
-      "What makes this business hard to replace?"
+      {"question": "What is the MVP scope?", "hint": "Minimum features needed to solve the core problem. What's the 1.0?", "difficulty": "Intermediate"},
+      {"question": "What makes your solution different?", "hint": "Unique approach, technology, speed, cost, user experience, quality", "difficulty": "Intermediate"},
+      {"question": "What is your feature roadmap?", "hint": "Phase 1 (MVP), Phase 2 (after traction), Phase 3 (market leadership)", "difficulty": "Advanced"},
+      {"question": "What is your user journey?", "hint": "From awareness → discovery → trial → purchase → loyalty. Map each step.", "difficulty": "Advanced"},
+      {"question": "How does your solution relieve pains?", "hint": "Which specific frustrations does it eliminate? By how much?", "difficulty": "Intermediate"},
+      {"question": "How does your solution create gains?", "hint": "What positive outcomes does it create? More time? Better quality? Lower cost?", "difficulty": "Intermediate"},
+      {"question": "What makes this business hard to replace?", "hint": "Defensibility: network effects, data advantage, brand, technology, customer lock-in", "difficulty": "Advanced"}
     ],
     "competition_dimension": [
-      "Who are your top competitors?",
-      "What are their strengths?",
-      "What are their weaknesses?",
-      "Where are the market gaps?",
-      "What opportunities are others missing?"
+      {"question": "Who are your top competitors?", "hint": "Direct (same product) and indirect (alternative solutions) competitors", "difficulty": "Intermediate"},
+      {"question": "What are their strengths?", "hint": "Market share, brand, features, price, customer loyalty, resources", "difficulty": "Intermediate"},
+      {"question": "What are their weaknesses?", "hint": "Gaps in features, poor UX, high price, slow innovation, lack of support", "difficulty": "Intermediate"},
+      {"question": "Where are the market gaps?", "hint": "Underserved segments, unmet needs, price points they don't target", "difficulty": "Advanced"},
+      {"question": "What opportunities are others missing?", "hint": "Distribution channels, geographies, use cases, customer segments", "difficulty": "Advanced"}
     ],
     "business_dimension": [
-      "What pricing strategy will you use?",
-      "What revenue streams will your business have?",
-      "What is your cost structure?",
-      "How scalable is your business?",
-      "What key metrics will you track?",
-      "What is your market entry strategy?"
+      {"question": "What pricing strategy will you use?", "hint": "Cost-plus, value-based, penetration, premium, freemium, usage-based, tiered", "difficulty": "Advanced"},
+      {"question": "What revenue streams will your business have?", "hint": "Primary (main product) + secondary (add-ons, premium, services, partnerships)", "difficulty": "Intermediate"},
+      {"question": "What is your cost structure?", "hint": "Fixed (salaries, rent) vs variable (COGS, payment processing). Unit economics?", "difficulty": "Advanced"},
+      {"question": "How scalable is your business?", "hint": "Can you 10x revenue with 2x costs? Or does it require proportional hiring?", "difficulty": "Advanced"},
+      {"question": "What key metrics will you track?", "hint": "CAC, LTV, churn, conversion, NPS, MRR, burn rate, runway", "difficulty": "Advanced"},
+      {"question": "What is your market entry strategy?", "hint": "Launch date, target segment first, go-to-market plan, partnerships", "difficulty": "Advanced"}
     ],
     "branding_dimension": [
-      "What brand tone do you prefer?",
-      "Which brand archetype fits your business?",
-      "What color psychology matches your brand?",
-      "What logo concept do you imagine?",
-      "What themes define your brand story?"
+      {"question": "What brand tone do you prefer?", "hint": "Professional, friendly, bold, playful, minimalist, premium, educational", "difficulty": "Beginner"},
+      {"question": "Which brand archetype fits your business?", "hint": "Hero, Rebel, Explorer, Creator, Sage, Caregiver, Lover, Jester, etc.", "difficulty": "Intermediate"},
+      {"question": "What color psychology matches your brand?", "hint": "Blue (trust), green (growth), red (energy), purple (premium), yellow (optimism)", "difficulty": "Beginner"},
+      {"question": "What logo concept do you imagine?", "hint": "Wordmark, symbol, abstract, mascot, geometric, vintage, modern", "difficulty": "Beginner"},
+      {"question": "What themes define your brand story?", "hint": "Mission, vision, founder story, origin, values, why you exist beyond profit", "difficulty": "Intermediate"}
     ],
     "founder_dimension": [
-      "What abilities do you have?",
-      "What is your personality type?",
-      "What is your mission as a founder?",
-      "What is your long-term vision?",
-      "What is your unfair advantage?"
+      {"question": "What abilities do you have?", "hint": "Technical, sales, marketing, fundraising, operations, domain expertise", "difficulty": "Beginner"},
+      {"question": "What is your personality type?", "hint": "Are you a builder, visionary, operator, networker, or specialist?", "difficulty": "Beginner"},
+      {"question": "What is your mission as a founder?", "hint": "Why are you doing this? Impact you want, problem you're passionate about", "difficulty": "Intermediate"},
+      {"question": "What is your long-term vision?", "hint": "5-10 year goal. IPO? Acquisition? Lifestyle business? Category leader?", "difficulty": "Intermediate"},
+      {"question": "What is your unfair advantage?", "hint": "What do you have that competitors don't? Network, skills, relationships, timing", "difficulty": "Intermediate"}
     ]
   },
 
   "digital_needs_scan": [
-    "Do you need a website?",
-    "Do you need a mobile app?",
-    "Do you need a chatbot?",
-    "Do you need workflow automations?",
-    "Do you need a CRM?",
-    "Do you need an AI assistant?",
-    "Do you need a dashboard or admin panel?",
-    "Do you need a marketing funnel?",
-    "Do you need an e-commerce system?",
-    "Do you need analytics and tracking tools?",
-    "Do you need internal tools or ERP?",
-    "Do you need a community platform?"
+    {
+      "question": "Do you need a website?",
+      "hint": "Most businesses do. Landing page, blog, or full site with e-commerce?",
+      "difficulty": "Beginner"
+    },
+    {
+      "question": "Do you need a mobile app?",
+      "hint": "Only if core experience is better on mobile. Consider mobile-first web first.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Do you need a chatbot?",
+      "hint": "For customer support 24/7. AI chatbots now handle complex queries well.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Do you need workflow automations?",
+      "hint": "Zapier, Make, n8n for connecting apps. Example: lead → CRM → email → calendar",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Do you need a CRM?",
+      "hint": "Track customers and sales. Pipedrive, HubSpot, Salesforce. Essential for B2B.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Do you need an AI assistant?",
+      "hint": "Automate content creation, customer support, or internal processes",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Do you need a dashboard or admin panel?",
+      "hint": "Monitor KPIs, manage data, view analytics. Internal tool for your team.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Do you need a marketing funnel?",
+      "hint": "Landing page, email sequences, checkout flow. Tools: Unbounce, ConvertKit, Gumroad",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Do you need an e-commerce system?",
+      "hint": "Shopify, WooCommerce, or custom. Only if selling products online.",
+      "difficulty": "Intermediate"
+    },
+    {
+      "question": "Do you need analytics and tracking tools?",
+      "hint": "Google Analytics, Mixpanel, Amplitude. Understand user behavior and conversions.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Do you need internal tools or ERP?",
+      "hint": "Operations, inventory, project management. Airtable, Monday, or custom systems.",
+      "difficulty": "Advanced"
+    },
+    {
+      "question": "Do you need a community platform?",
+      "hint": "Discord, Circle, Mighty Networks for customer engagement and retention.",
+      "difficulty": "Intermediate"
+    }
   ]
 }
